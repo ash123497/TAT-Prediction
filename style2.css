@@ -1,0 +1,338 @@
+@charset "ISO-8859-1";
+
+.head
+{
+ background-color: lavender; 
+ height:50px;
+ cursor: pointer;  
+ font-family:"Avenir Next W02", sans-serif;
+ font-size: 15px; 
+ padding-bottom:20px;
+}
+#ad
+{
+  padding-top:5px;
+}
+#img
+{
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+#home
+{
+  color:#0a0a0a;
+  text-decoration: none;
+  padding-top: px;
+  font-size: 20px;
+}
+#bg
+{
+ height: 812px;
+ width:100%;
+ padding-top: -1px;
+ 
+}
+#not
+{
+  padding: 15px;
+  text-align: center;
+  height: 48px;
+  width: 20px;
+  font-size: 16px;
+  position: relative;
+  float: right;
+  border: none;
+  cursor: pointer;
+  padding-right: 110px;
+ 
+}
+.dropbtn {
+  background-color: #3498DB;
+   height: 48px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: steelblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 20%;
+  height: 150px;
+  padding: 5px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+.detail
+{
+cursor: pointer; 
+position:absolute;
+top:280%;
+height:350px;
+width:100%;
+background-color:#B4CFEC;
+padding-top:50px;
+  background-image:url("water1.jpg");
+}
+.controls
+{
+float:left;
+padding-left:150px;
+padding-top:30px;
+font-size:20px;
+
+}
+.quickaccess
+{
+float:left;
+padding-left:200px;
+padding-top:30px;
+font-size:20px;
+}
+#cnt
+{
+color:white;
+text-decoration:none;
+}
+.vert{
+  border-left: 3px solid #C9DFEC;
+  height: 200px;
+  position:absolute;
+  left: 55%;
+  padding-top:80px;
+}
+
+.picture
+{
+float:right;
+padding-right:300px;
+padding-top:0px;
+
+}
+.name
+{
+padding-top:60px;
+}
+#img1
+{
+position:absolute;
+float:left;
+padding-top:45px;
+}
+#namecnt
+{
+position:absolute;
+float:left;
+padding-left:200px;
+padding-top:70px;
+font-size:20px;
+text-align:center;
+color:white;
+}
+#sm
+{
+ float:right;
+ padding-top:35px;
+}
+#sm1
+{
+border-radius:50%;
+}
+
+#fb
+{
+  padding-right:25px;
+  border-radius:50px;
+}
+#twit
+{
+  padding-right:25px;
+}
+#insta
+{
+  padding-right:25px;
+}
+#gl
+{
+  padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    position:absolute;
+    top:180%;
+    background-color:#778899;
+    color:white;
+    height:50px;
+    width:100%;
+}
+#cpy
+{
+ float:left;
+ padding-left:400px;
+ padding-top:15px;
+}

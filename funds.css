@@ -1,0 +1,243 @@
+@charset "ISO-8859-1";
+
+
+.head
+{
+ background-color: lavender; 
+  
+  color: white; 
+ height:50px;
+  cursor: pointer; 
+       
+    font-family:Times New Roman;
+      font-size: 15px; 
+
+}
+#home
+{
+
+  padding-top:2px;
+  color:black;
+text-decoration:none;
+}
+.zoom:hover
+{
+ transform: scale(1.6);
+ color:#5f9ea0;
+}
+#img
+{
+  float:left;
+  padding-left:20px;
+}
+
+body
+{
+background-color:lavender;
+}
+
+.content
+{
+position:relative;
+text-align:center;
+color:white;
+font-size:18px;
+}
+
+.centered
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+#us{
+	text-align: center;
+	color:  #3090C7;
+	letter-spacing: 3px;
+	
+	font-family: "Avenir", sans-serif;
+	font-size: 35px;
+}
+
+.about_us{
+        position:relative;
+	text-align: left;
+	color: #000000;
+	font-size: 78%;
+	font-weight: normal;
+    font-family: "Avenir", sans-serif;
+	line-height: 20pt;
+      
+        
+}
+
+.vision{
+	color: #000000;
+    text-align: center;
+	float: left;
+	display: inline-block;
+	padding-left: 150px;
+       padding-top:20px;
+}
+
+.mission{
+	color: #000000;
+    text-align: center;
+	float: right;
+	display: inline-block;
+	padding-right:100px;
+        padding-top:20px;
+
+}
+.mission1{
+	color: #000000;
+    text-align: center;
+	float: left;
+	display: inline-block;
+	padding-left: 500px;
+
+}
+.card p{
+	width: 450px;
+	font-family: "Avenir", sans-serif;
+	text-align: justify;
+	font-weight: normal;
+}
+.about_us img{
+	width: 500px;
+	height: 330px;
+}
+
+
+
+
+
+
+.detail
+{
+position:absolute;
+top:280%;
+height:250px;
+width:100%;
+background-color:#B4CFEC;
+padding-top:50px;
+ background-image:url("water1.jpg");
+}
+.controls
+{
+float:left;
+padding-left:150px;
+padding-top:30px;
+font-size:20px;
+
+}
+.quickaccess
+{
+float:left;
+padding-left:200px;
+padding-top:30px;
+font-size:20px;
+}
+#cnt
+{
+color:white;
+text-decoration:none;
+}
+.vert{
+  border-left: 3px solid #C9DFEC;
+  height: 150px;
+  position:absolute;
+  left: 55%;
+  padding-top:80px;
+}
+
+.picture
+{
+float:right;
+padding-right:300px;
+padding-top:0px;
+
+}
+.name
+{
+padding-top:60px;
+}
+#img1
+{
+position:absolute;
+float:left;
+padding-top:45px;
+}
+#namecnt
+{
+position:absolute;
+float:left;
+padding-left:200px;
+padding-top:50px;
+font-size:20px;
+text-align:center;
+}
+#sm
+{
+ float:right;
+ padding-top:35px;
+}
+#sm1
+{
+border-radius:50%;
+}
+
+#fb
+{
+  padding-right:25px;
+  border-radius:50px;
+}
+#twit
+{
+  padding-right:25px;
+}
+#insta
+{
+  padding-right:25px;
+}
+#gl
+{
+  padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    position:absolute;
+    top:100%;
+    background-color:#778899;
+    color:white;
+    height:50px;
+    width:100%;
+}
+
+
+#cpy
+{
+ float:left;
+ padding-left:400px;
+ padding-top:15px;
+}
